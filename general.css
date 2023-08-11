@@ -60,13 +60,9 @@
   
 }
 
-/* .bird {
-  display: flex;
-  flex-direction: row;
-  width: 20%;
-  height: 20%;
-  
-  background-color: transparent;
+.bird {
+ max-width: 100%;
+ mix-blend-mode: multiply;
 
-} */
+}
 
