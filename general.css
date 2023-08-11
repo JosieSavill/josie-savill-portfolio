@@ -12,7 +12,8 @@
   font-family: tahoma;
   color: white;
   padding: 0px;
-  text-shadow: 4px 4px 6px rgba(0, 0, 0, 4);
+  
+  opacity: 0.9;
   z-index: 200;
 }
 
@@ -25,20 +26,15 @@
   padding: 8px;
   font-family: 'Gill Sans', sans-serif, Calibri;
   font-size: 33px;
-  
-  
+  /* text-shadow: 4px 4px 6px rgba(0, 0, 0, 4); */
   color: white;
-  
-  text-shadow: 4px 4px 6px rgba(0, 0, 0, 4);
- 
-    
-    
-  
+  text-shadow: 4px 4px 6px rgba(4, 4, 4, 7);
 }
 
 span {
   font-size: 22px; 
   font-style: italic;
+  text-shadow: 4px 4px 6px rgba(4, 4, 4, 7);
 }
 
 .navbar {
@@ -57,10 +53,12 @@ span {
   text-align: center;
   padding: 18px;
   transition: background-color 0.1s ease;
+  text-shadow: 4px 4px 6px rgba(4, 4, 4, 7);
 }
 
 .nav:hover {
   background-color: var(--color2);
+  opacity: 0.9;
 }
 
 .banner {
