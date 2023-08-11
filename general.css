@@ -16,11 +16,27 @@
 
 .logo {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   text-align: center;
   justify-content: center;
   max-width: 30%;
   padding: 18px;
+  font-family: 'Gill Sans', sans-serif, Calibri;
+  font-size: 22px;
+  
+  
+  color: white;
+  
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 4);
+ 
+    
+    
+  
+}
+
+span {
+  font-size: 12px; 
+  font-style: italic;
 }
 
 .navbar {
@@ -65,4 +81,6 @@
  mix-blend-mode: multiply;
 
 }
+
+
 
