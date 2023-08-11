@@ -8,10 +8,11 @@
   flex-direction: row;
   justify-content: space-between;
   background-color: var(--color1);
-  font-size: 14px;
+  font-size: 18px;
   font-family: tahoma;
   color: white;
   padding: 0px;
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 4);
 }
 
 .logo {
@@ -19,10 +20,10 @@
   flex-direction: column;
   text-align: center;
   justify-content: center;
-  max-width: 30%;
-  padding: 18px;
+  max-width: 40%;
+  padding: 8px;
   font-family: 'Gill Sans', sans-serif, Calibri;
-  font-size: 22px;
+  font-size: 33px;
   
   
   color: white;
@@ -35,7 +36,7 @@
 }
 
 span {
-  font-size: 12px; 
+  font-size: 22px; 
   font-style: italic;
 }
 
