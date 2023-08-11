@@ -13,6 +13,7 @@
   color: white;
   padding: 0px;
   text-shadow: 4px 4px 6px rgba(0, 0, 0, 4);
+  z-index: 200;
 }
 
 .logo {
@@ -64,18 +65,23 @@ span {
 
 .banner {
   display: flex;
-  
   background-image: url("./assets/bg.jpg");
   background-size: cover;
+  width: 100%;
+  height: 600px;
+  z-index: 1;
+  
 }
 
-.background-pic {
+/* .background-pic {
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: 400px;
+  height: 100%;
+  z-index: 1;
+  background-size: cover;
   
-}
+} */
 
 .bird {
  max-width: 100%;
