@@ -87,5 +87,46 @@ span {
 
 }
 
+.middle {
+  display: flex;
+  flex-direction: column;
+  column-gap: 40px;
+  row-gap: 40px;
+  padding-top: 70px;
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 100%;
+  flex: wrap;
+  justify-content: center;
+}
+
+.first-row,
+.second-row {
+  display: flex;
+  flex-direction: row;
+  flex: wrap;
+  justify-content: start;
+  padding-left: 100px;
+  padding-right: 100px;
+  column-gap: 20px;
+}
+
+.half-split,
+.hover-overlay,
+.profile {
+  display: flex;
+  flex-direction: column;
+  flex: wrap;
+  min-width: 400px;
+  min-height: 200px;
+  border: solid;
+  border-color: var(--color1);
+  border-radius: 20px;
+  
+  
+  
+}
+
+
 
 
