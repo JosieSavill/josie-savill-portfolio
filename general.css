@@ -90,36 +90,37 @@ span {
 .middle {
   display: flex;
   flex-direction: column;
-  column-gap: 40px;
-  row-gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* column-gap: 40px; */
+  row-gap: 30px;
   padding-top: 50px;
   padding-left: 100px;
   padding-right: 100px;
   height: 100%;
-  flex: wrap;
-  justify-content: center;
 }
 
 .first-row,
 .second-row {
   display: flex;
   flex-direction: row;
-  flex: wrap;
+  flex-wrap: wrap;
   justify-content: start;
-  padding-left: 100px;
-  padding-right: 100px;
-  column-gap: 20px;
+  /* padding-left: 100px;
+  padding-right: 100px; */
+  column-gap: 30px;
+  row-gap:  30px;
 }
 
 /* .first-row {
 
 } */
 
-.half-split,
+.split,
 .hover-overlay {
   display: flex;
   flex-direction: column;
-  flex: wrap;
+  flex-wrap: wrap;
   min-width: 420px;
   min-height: 200px;
   border: solid;
