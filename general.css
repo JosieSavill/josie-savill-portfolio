@@ -92,7 +92,7 @@ span {
   flex-direction: column;
   column-gap: 40px;
   row-gap: 40px;
-  padding-top: 70px;
+  padding-top: 50px;
   padding-left: 100px;
   padding-right: 100px;
   height: 100%;
@@ -111,21 +111,35 @@ span {
   column-gap: 20px;
 }
 
+/* .first-row {
+
+} */
+
 .half-split,
-.hover-overlay,
-.profile {
+.hover-overlay {
   display: flex;
   flex-direction: column;
   flex: wrap;
-  min-width: 400px;
+  min-width: 420px;
   min-height: 200px;
   border: solid;
   border-color: var(--color1);
   border-radius: 20px;
-  
-  
-  
+  box-shadow: 4px 4px 8px rgba(61, 24, 24, 0.5);
 }
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  flex: wrap;
+  min-width: 420px;
+  min-height: 150px;
+  border: solid;
+  border-color: var(--color1);
+  border-radius: 20px;
+  box-shadow: 4px 4px 8px rgba(61, 24, 24, 0.5);
+}
+
 
 
 
