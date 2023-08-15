@@ -16,7 +16,6 @@ body {
   font-family: tahoma;
   color: white;
   padding: 0px;
-  
   opacity: 0.8;
   z-index: 200;
 }
@@ -35,7 +34,7 @@ body {
   text-shadow: 4px 4px 6px rgba(4, 4, 4, 7);
 }
 
-span {
+.logo-description {
   font-size: 22px; 
   font-style: italic;
   text-shadow: 4px 4px 6px rgba(4, 4, 4, 7);
@@ -118,6 +117,8 @@ span {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
   min-width: 480px;
   max-width: 480px;
   min-height: 200px;
@@ -176,7 +177,6 @@ h2 {
   height: 100%;
 }
 
-
 .split-top {
   background-color: white;
   color: black;
@@ -189,10 +189,10 @@ h2 {
   text-align: center;
   box-sizing: border-box;
   min-height: 100px;
-  padding-left: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-right: 20px;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
   border-radius: 20px 20px 0 0;
   border: none;
 
@@ -210,10 +210,10 @@ h2 {
   text-align: center;
   box-sizing: border-box;
   min-height: 100px;
-  padding-left: 30px;
-  padding-top: 30px;
-  padding-right: 30px;
-  padding-bottom: 30px;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
   border: none;
   border-radius: 0 0 9px 9px;
 }
@@ -239,10 +239,10 @@ h2 {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: start;
-  padding-left: 20px;
-  padding-top: 15px;
-  padding-right: 20px;
-  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 5px;
   justify-content: center;
 }
 
@@ -260,10 +260,10 @@ h2 {
   justify-content: center;
   text-align: start;
   font-size: 16px;
-  padding-left: 15px;
+  padding-left: 20px;
   padding-right: 20px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .click-button {
