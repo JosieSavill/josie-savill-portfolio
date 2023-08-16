@@ -11,21 +11,19 @@ body {
 .header {
   display: flex;
   flex-direction: row;
-  justify-content: start;
+  justify-content: space-evenly;
   background-color: var(--color3);
-  font-size: 18px;
-  font-family: tahoma;
-  color: white;
-  padding-top: 0;
+  padding-top: 10px;
   padding-left: 20px;
-  padding-bottom: 0;
-  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-right: 0;
   border: none;
   z-index: 400;
   
+  
 }
 
-.bird-header {
+/* .bird-header {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -39,7 +37,7 @@ body {
   
   
   
-}
+} */
 
 .logo {
   display: flex;
@@ -47,9 +45,9 @@ body {
   text-align: center;
   justify-content: center;
   max-width: 40%;
-  padding: 8px;
+  padding-left: 30px;
   font-family: 'Gill Sans', sans-serif, Calibri;
-  font-size: 33px;
+  font-size: 44px;
   font-stretch: extra-expanded;
   color: white;
   text-shadow: 4px 4px 6px rgba(4, 4, 4, 9);
@@ -67,21 +65,23 @@ body {
 .navbar {
   display: flex;
   flex-direction: row;
-  justify-content: end;
-  padding-right: 20px;
-  gap: 25px;
+  justify-content: space-between;
+  gap: 30px;
   cursor: pointer;
   transition: background-color 0.1s ease-in-out;
   padding-left: 580px;
+  
 }
 
 .nav {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   text-align: center;
-  padding: 18px;
+  padding: 22px;
   transition: background-color 0.1s ease-in-out;
+  font-size: 18px;
+  color: white;
   text-shadow: 4px 4px 6px rgba(4, 4, 4, 7);
   transition-delay: 0;
   stop-opacity: 1;
@@ -110,8 +110,8 @@ body {
 
 
 .bird {
- max-width: 400px;
- max-height: 400px;
+ max-width: 300px;
+ max-height: 300px;
  padding-left: 40px;
  padding-top: 100px;
  padding-bottom: 100px;
