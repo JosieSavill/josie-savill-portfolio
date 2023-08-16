@@ -11,14 +11,15 @@ body {
 .header {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   background-color: var(--color3);
-  padding-top: 10px;
+  padding-top: 0px;
   padding-left: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
   padding-right: 0;
   border: none;
   z-index: 400;
+  gap: 0;
   
   
 }
@@ -45,7 +46,9 @@ body {
   text-align: center;
   justify-content: center;
   max-width: 40%;
-  padding-left: 30px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-family: 'Gill Sans', sans-serif, Calibri;
   font-size: 44px;
   font-stretch: extra-expanded;
@@ -78,11 +81,14 @@ body {
   flex-direction: row;
   justify-content: center;
   text-align: center;
-  padding: 22px;
+  text-align: center;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
   transition: background-color 0.1s ease-in-out;
   font-size: 18px;
   color: white;
-  text-shadow: 4px 4px 6px rgba(4, 4, 4, 7);
+  text-shadow: 4px 4px 6px rgba(4, 4, 4, 9);
   transition-delay: 0;
   stop-opacity: 1;
   z-index: 300;
