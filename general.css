@@ -60,7 +60,7 @@ body {
 .logo-description {
   font-size: 22px; 
   font-style: italic;
-  text-shadow: 4px 4px 6px rgba(4, 4, 4, 7);
+  text-shadow: 4px 4px 6px rgba(4, 4, 4, 9);
   stop-opacity: 1;
 }
 
