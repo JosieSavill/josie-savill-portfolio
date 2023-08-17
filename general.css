@@ -306,7 +306,7 @@ h2 {
   padding-bottom: 20px;
 }
 
-.click-button {
+/* .click-button {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -316,32 +316,62 @@ h2 {
   border: none;
   max-width: 400px;
   max-height: 20px;
-}
-
-.button {
   
-  display: flex;
-  flex-direction: row;
-  
+} */
 
-}
-
-.button-label {
+button {
+  border: none;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: start;
   text-align: start;
   box-sizing: border-box;
-  border: solid;
+  max-width: 400px;
+  max-height: 20px;
+  background-color: transparent;
+  
+}
+
+
+
+.button-label {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: start;
+  box-sizing: border-box;
+  border: none;
   background-color: var(--color1);
   color: white;
+  font-size: 18px;
   border-radius: 15px;
   padding-left: 30px;
-  padding-top: 4px;
+  padding-top: 8px;
   padding-right: 30px;
   padding-bottom: 4px;
   box-shadow: 4px 4px 8px rgba(61, 24, 24, 0.5);
+  overflow: hidden;
+  transition: all ease-out 500ms;
+}
+
+.button-label:hover {
+  background-color: white;
+  color: var(--color1);
+  font-weight: bold;
+}
+
+.arrow {
+  padding-left: 10px;
+  width: 26px;
+  transition: all ease-out 500ms;
+}
+
+.arrow:hover {
+  fill: var(--color1);
+  margin-left: 20px;
+  cursor: pointer;
 }
 
 .footer {
