@@ -306,7 +306,7 @@ h2 {
   padding-bottom: 20px;
 }
 
-/* .click-button {
+.click-button {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -316,7 +316,24 @@ h2 {
   border: none;
   max-width: 400px;
   max-height: 20px;
+  transition: all ease-out 500ms;
+                
+
   
+}
+
+/* .click-button:hover .button-label {
+  .button-label:hover {
+    background-color: white;
+    color: var(--color1);
+    border: solid;
+    border-width: 2px;
+    border-color: var(--color1);
+    fill: var(--color1);
+    cursor: pointer;
+    margin-left: 15px;
+    padding-right: 15px;
+  }
 } */
 
 button {
