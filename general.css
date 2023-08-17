@@ -381,20 +381,18 @@ button {
   border-color: var(--color1);
   fill: var(--color1);
   cursor: pointer;
-  margin-left: 15px;
-  padding-right: 15px;
+  
 }
 
 .arrow {
   padding-left: 10px;
   width: 26px;
-  transition: all ease-out 500ms;
+  transition: all ease-out 100ms;
 }
 
 .arrow:hover {
   fill: var(--color1);
-  margin-left: 15px;
-  padding-right: 15px;
+  margin-left: 10px;
   cursor: pointer;
 }
 
@@ -405,9 +403,9 @@ button {
   min-width: 70%;
   justify-content: space-between;
   column-gap: 200px;
-  padding-top: 800px;
-  z-index: 300;
-  position: fixed;
+  padding-top: 100px;
+  /* z-index: 300; */
+  
   margin-left: -300px;
 }
 
@@ -442,8 +440,8 @@ h4 {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  font-size: 22px;
-  color: rgb(41, 38, 38);
+  font-size: 20px;
+  color: rgb(171, 47, 89, 0.75);
   max-height: 30px;
   padding-top: 10px;
 
