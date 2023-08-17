@@ -20,25 +20,7 @@ body {
   border: none;
   z-index: 400;
   gap: 0;
-  
-  
 }
-
-/* .bird-header {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: center;
-  max-width: 80px;
-  max-height: 80px;
-  mix-blend-mode: multiply;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border: none;
-  
-  
-  
-} */
 
 .logo {
   display: flex;
@@ -115,12 +97,11 @@ body {
   /* stop-opacity: 1; */
 }
 
-
 .bird {
  max-width: 400px;
  max-height: 400px;
  padding-left: 0;
- padding-top: 200px;
+ padding-top: 100px;
  padding-bottom: 600px;
  mix-blend-mode: multiply;
  opacity: 0.75;
@@ -133,7 +114,7 @@ body {
   justify-content: center;
   column-gap: 20px;
   row-gap: 20px;
-  padding-top: 200px;
+  padding-top: 100px;
   padding-left: 80px;
   padding-right: 30px;
   height: 100%;
@@ -150,7 +131,7 @@ body {
 }
 
 .second-row {
-  padding-bottom: 280px;
+  padding-bottom: 30px;
 }
 
 .split,
@@ -168,7 +149,6 @@ body {
   border-color: var(--color1);
   border-radius: 12px;
   box-shadow: 4px 4px 8px rgba(61, 24, 24, 0.5);
-  
 }
 
 h2 {
@@ -326,19 +306,6 @@ h2 {
   
 }
 
-/* .click-button:hover .button-label {
-  .button-label:hover {
-    background-color: white;
-    color: var(--color1);
-    border: solid;
-    border-width: 2px;
-    border-color: var(--color1);
-    fill: var(--color1);
-    cursor: pointer;
-    margin-left: 15px;
-    padding-right: 15px;
-  }
-} */
 
 button {
   border: none;
@@ -388,6 +355,7 @@ button {
   box-shadow: 4px 4px 8px rgba(61, 24, 24, 0.5);
   padding-right: 10px;
   
+  
 }
 
 .arrow {
@@ -409,11 +377,12 @@ button {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-about;
+  text-align: start;
   padding-top: 20px;
   border-top: solid;
   border-color: var(--color3);
   margin-left: -300px;
-  margin-right: -400px;
+ 
 }
 
 .linkedin-icon {
@@ -447,7 +416,6 @@ button {
   flex-direction: column;
   flex-wrap: wrap;
   font-size: 20px;
-  font-weight: bold;
   color: rgb(171, 47, 89, 0.75);
   padding-left: 40px;
   padding-top: 10px;
