@@ -359,7 +359,13 @@ button {
 .button-label:hover {
   background-color: white;
   color: var(--color1);
-  font-weight: bold;
+  border: solid;
+  border-width: 2px;
+  border-color: var(--color1);
+  fill: var(--color1);
+  cursor: pointer;
+  margin-left: 15px;
+  padding-right: 15px;
 }
 
 .arrow {
@@ -370,7 +376,8 @@ button {
 
 .arrow:hover {
   fill: var(--color1);
-  margin-left: 20px;
+  margin-left: 15px;
+  padding-right: 15px;
   cursor: pointer;
 }
 
