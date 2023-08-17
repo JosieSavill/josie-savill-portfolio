@@ -139,7 +139,7 @@ body {
  padding-top: 250px;
  padding-bottom: 10px;
  mix-blend-mode: multiply;
- opacity: 0.7;
+ opacity: 0.64;
 }
 
 .middle {
@@ -166,7 +166,7 @@ body {
 }
 
 .second-row {
-  padding-bottom: 200px;
+  padding-bottom: 144px;
 }
 
 .split,
