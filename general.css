@@ -167,7 +167,7 @@ body {
 }
 
 .second-row {
-  padding-bottom: 194px;
+  padding-bottom: 190px;
 }
 
 .split,
@@ -326,24 +326,7 @@ h2 {
   padding-bottom: 20px;
 }
 
-.click-button {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: start;
-  text-align: start;
-  box-sizing: border-box;
-  border: none;
-  max-width: 400px;
-  max-height: 20px;
-  transition: all ease-out 500ms;
-                
-
-  
-}
-
-
-button {
+.resume-btn {
   border: none;
   display: flex;
   flex-direction: row;
@@ -352,21 +335,7 @@ button {
   text-align: start;
   box-sizing: border-box;
   max-width: 400px;
-  max-height: 20px;
-  background-color: transparent;
-  
-}
-
-
-
-.button-label {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  text-align: start;
-  box-sizing: border-box;
-  border: none;
+  max-height: 200px;
   background-color: var(--color1);
   color: white;
   font-size: 18px;
@@ -380,33 +349,56 @@ button {
   transition: all ease-out 500ms;
 }
 
-.button-label:hover {
-  background-color: white;
-  color: var(--color1);
-  border: solid;
-  border-width: 3px;
-  border-color: var(--color1);
-  fill: var(--color1);
-  cursor: pointer;
-  box-shadow: 4px 4px 8px rgba(61, 24, 24, 0.5);
+.resume-btn-text {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: start;
+  box-sizing: border-box;
+  border: none;
+  background-color: var(--color1);
+  color: white;
+  font-size: 18px;
+  padding-left: 20px;
+  padding-top: 10px;
   padding-right: 10px;
-  
-  
+  padding-bottom: 10px;
+  overflow: hidden;
+  transition: all ease-out 500ms;
 }
 
 .arrow {
   padding-left: 5px;
+  padding-top: 8px;
   padding-right: 5px;
   width: 26px;
   transition: all ease-out 500ms;
 }
 
-.arrow:hover {
-  fill: var(--color1);
-  padding-left: 15px;
-  padding-right: 10px;
+.resume-btn:hover {
+  background-color: white;
+  color: var(--color1);
+  border: solid;
+  border-width: 4px;
+  border-color: var(--color1);
+  cursor: pointer;
+  /* fill: rgb(171, 47, 89, 0.75); */
+}
+
+.resume-btn:hover .resume-btn-text {
+  background-color: white;
+  color: #ab2f59;
+  font-weight: bold;
+  border: none;
   cursor: pointer;
 }
+
+.resume-btn:hover .arrow {
+  fill: var(--color3);
+  transform: translateX(5px);
+  padding-right: 0;
+} 
 
 .footer {
   display: flex;
@@ -421,7 +413,6 @@ button {
   width: 100%;
  
 }
-
 
 .updated {
   display: flex;
