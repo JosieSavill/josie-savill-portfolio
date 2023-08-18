@@ -218,6 +218,7 @@ h2 {
   transition: all ease-out 500ms;
   height: 100%;
 }
+
 .special .bottom{
   transition: all ease-out 500ms;
   background-color: var(--color1);
@@ -255,7 +256,6 @@ h2 {
   padding-right: 15px;
   border-radius: 20px 20px 0 0;
   border: none;
-
 }
 
 .split-bottom {
@@ -283,14 +283,22 @@ h2 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: start;
-  padding-left: 30px;
+  padding-left: 10px;
   padding-top: 100px;
   padding-right: 10px;
   padding-bottom: 5px;
-  justify-content: center;
   overflow: hidden;
-
 }
+
+/* .top-row,
+.bottom-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  column-gap: 20px;
+  row-gap:  20px;
+} */
 
 .gem-pic,
 .beagzcal-pic,
@@ -348,7 +356,11 @@ h2 {
   border-color: var(--color2);
   border-width: 3px;
   border-radius: 180px;
-  max-block-size: 77px;
+  /* max-block-size: 77px; */
+  max-width: 82px;
+  min-width: 82px;
+  max-height: 70px;
+  min-height: 70px;
   
   
 }
