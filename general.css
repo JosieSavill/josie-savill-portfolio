@@ -130,7 +130,7 @@ body {
 
 .background-pic {
   width: 100%;
-  height: 110vh;
+  height: 100vh;
   
 }
 
@@ -353,8 +353,6 @@ body {
   box-shadow: 4px 4px 8px rgba(61, 24, 24, 0.5);
 }
 
-
-
 h2 {
   color: white;
   padding-top: 60px;
@@ -397,7 +395,6 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* color: white; */
 }
 
 .special:hover .top{
