@@ -394,6 +394,7 @@ h2 {
   height: 0%;
   display: flex;
   justify-content: center;
+  overflow: hidden;
   align-items: center;
 }
 
