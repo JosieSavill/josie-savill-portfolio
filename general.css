@@ -152,7 +152,7 @@ body {
   column-gap: 20px;
   row-gap: 20px;
   padding-top: 130px;
-  padding-left: 60px;
+  padding-left: 40px;
   padding-right: 30px;
   height: 100%;
 }
@@ -167,6 +167,30 @@ body {
   padding-top: 20px;
   padding-bottom: 10px;
 }
+
+.row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  column-gap: 30px;
+  row-gap:  20px;
+  padding-left: 100px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.last-row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  column-gap: 30px;
+  row-gap:  30px;
+  padding-left: 250px;
+  padding-bottom: 20px;
+}
+
 
 .profile {
   display: flex;
@@ -298,28 +322,6 @@ body {
   padding-right: 0;
 } 
 
-.row{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: start;
-  column-gap: 30px;
-  row-gap:  20px;
-  padding-left: 100px;
-  padding-top: 20px;
-  padding-bottom: 10px;
-}
-
-.last-row{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: start;
-  column-gap: 30px;
-  row-gap:  30px;
-  padding-left: 250px;
-  padding-bottom: 30px;
-}
 
 .split {
   display: flex;
