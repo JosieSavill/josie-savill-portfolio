@@ -197,9 +197,7 @@ body {
   border-color: var(--color1);
   border-radius: 12px;
   box-shadow: 4px 4px 8px rgba(61, 24, 24, 0.5);
-  /* min-width: 480px; */
   max-width: 480px;
-  /* min-height: 140px; */
   max-height: 140px;
   background-color: white;
 }
@@ -667,16 +665,19 @@ h2 {
     
   }
 
+  .bird {
+    max-width: 200px;
+    max-height: 200px;
+    mix-blend-mode: multiply;
+    opacity: 0.5;
+  } 
+
   .navbar {
     justify-content: start;
     padding-left: 100px;
     }
 
-  /* .nav {
-    padding-bottom: 10px;
-    padding-top: 10px;
-  } */
-
+  
   .logo {
     margin-left: 0;
     padding-left: 160px;
@@ -691,13 +692,6 @@ h2 {
     padding-left: 50px;
   }
 
-  .bird {
-    max-width: 200px;
-    max-height: 200px;
-    mix-blend-mode: multiply;
-    opacity: 0.5;
-  } 
-
   .middle {
     padding-left: 2px;
     padding-right: 2px;
@@ -708,26 +702,9 @@ h2 {
     flex-direction: column;
     flex-wrap: wrap;
   }
-
 }
 
-
 @media(max-width: 400px) {
- 
-
-  .bird {
-    max-width: 300px;
-    max-height: 300px;
-    mix-blend-mode: multiply;
-    opacity: 0.5;
-  }
-
-  .h2 {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-
   .header {
     padding-top: 20px;
     padding-left: 0;
@@ -737,7 +714,7 @@ h2 {
 
   .logo {
     justify-content: center;
-    padding-left: 80px;
+    padding-left: 120px;
     margin: 0px;
   }
 
@@ -750,12 +727,14 @@ h2 {
     justify-content: start;
     padding-left: 80px;
   }
+
   .nav {
     padding-bottom: 10px;
     padding-top: 10px;
     padding-left: 0;
     padding-right: 0;
   }
+
   .middle {
     display: flex;
     flex-direction: column;
@@ -771,20 +750,29 @@ h2 {
     padding-left: 2px;
     padding-right: 2px;
     column-gap: 0;
-    row-gap:  20px;
-    padding-top: 250px;
+    row-gap:  50px;
+    padding-top: 170px;
     padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .row {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
 
   .profile {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     max-width: 300px;
     max-height: 200px;
-    padding-left: 0;
-    padding-right: 0;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 380px;
   }
 
   .profile-pic {
@@ -793,10 +781,11 @@ h2 {
   } 
 
   .profile-text {
+    text-align: center;
     padding-left: 2px;
     padding-right: 2px;
     padding-top: 2px;
-    padding-bottom: 2px;
+    padding-bottom: 12px;
 
   }
 
