@@ -669,26 +669,26 @@ h2 {
 
   .navbar {
     justify-content: start;
-    padding-left: 140px;
+    padding-left: 100px;
     }
 
-  .nav {
+  /* .nav {
     padding-bottom: 10px;
     padding-top: 10px;
-  }
+  } */
 
   .logo {
     margin-left: 0;
-    padding-left: 200px;
+    padding-left: 160px;
   }
  
   .first-row {
     padding-top: 150px;
-    padding-left: 70px;
+    padding-left: 40px;
   }
 
   .row {
-    padding-left: 100px;
+    padding-left: 50px;
   }
 
   .bird {
