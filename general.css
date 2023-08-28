@@ -278,6 +278,7 @@ body {
   padding-bottom: 10px;
   overflow: hidden;
   transition: all ease-in-out 300ms;
+  text-decoration: none;
 }
 
 .portfolio-btn {
@@ -302,9 +303,8 @@ body {
   overflow: hidden;
   position: fixed;
   z-index: 200;
-  margin-top: -80px;
-  margin-bottom: -150px;
-  margin-left: 1280px;
+  right: 100px;
+  bottom: 100px;
 
 }
 
@@ -599,14 +599,12 @@ h2 {
 }
 
 
-
+/*1600 1200 900 600*/
 
 @media(max-width: 1600px) {
 
   .portfolio-btn {
-    margin-top: -80px;
-    margin-bottom: -150px;
-    margin-left: 1080px;
+      
   }
 
   .middle {
@@ -633,21 +631,12 @@ h2 {
     padding-right: 100px;
   }
 
-  .portfolio-btn {
-    margin-top: -80px;
-    margin-bottom: -150px;
-    margin-left: 1080px;
-  }
 
 }
 
 @media(max-width: 1400px) {
 
-  .portfolio-btn {
-    margin-top: 180px;
-    margin-bottom: 100px;
-    margin-left: 980px;
-  }
+
 
   .first-row {
     padding-left: 0;
@@ -662,12 +651,7 @@ h2 {
 
 @media(max-width: 1300px) {
 
-  .portfolio-btn {
-    margin-top: 10px;
-    /* margin-bottom: 300px; */
-    margin-left: 460px;
-    position: relative;
-  }
+
 
  .middle {
   padding-left: 50px;
@@ -678,9 +662,7 @@ h2 {
   padding-bottom: 15px;
  }
 
- .row {
-  margin-top: -100px;
- }
+
 }
 
 @media(max-width: 1070px) {
@@ -691,11 +673,7 @@ h2 {
 
 @media(max-width: 800px) {
 
-  .portfolio-btn {
-    margin-top: 10px;
-    margin-left: 250px;
-    position: relative;
-  }
+
 
   .header {
     padding-top: 20px;
@@ -749,11 +727,7 @@ h2 {
 
 @media(max-width: 600px) {
 
-  .portfolio-btn {
-    margin-top: 10px;
-    margin-left: 160px;
-    position: relative;
-  }
+
 
 
   .banner {
@@ -808,6 +782,11 @@ h2 {
     flex-direction: column;
     flex-wrap: wrap;
   }
+  .portfolio-btn {
+    bottom: 0;
+    right: 0;
+    position: relative;
+  }
 }
 
 @media(max-width: 400px) {
@@ -846,11 +825,7 @@ h2 {
     padding-right: 0;
   }
 
-  .portfolio-btn {
-    margin-top: 10px;
-    margin-left: 50px;
-    position: relative;
-  }
+ 
 
   .middle {
     display: flex;
@@ -911,7 +886,8 @@ h2 {
     padding-top: 8px;
     padding-right: 10px;
     padding-bottom: 4px;
-    margin: 0;
+    margin: 0; 
+
   }
 
   .split-top {
