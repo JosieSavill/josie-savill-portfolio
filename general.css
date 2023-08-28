@@ -152,7 +152,7 @@ body {
   justify-content: center;
   column-gap: 20px;
   row-gap: 20px;
-  padding-top: 130px;
+  padding-top: 120px;
   padding-left: 50px;
   padding-right: 50px;
   height: 100%;
@@ -166,8 +166,8 @@ body {
   justify-content: center;
   column-gap: 30px;
   row-gap:  20px;
-  padding-top: 20px;
-  padding-bottom: 100px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   
 }
 
@@ -180,10 +180,9 @@ body {
   row-gap:  20px;
   padding-left: 400px;
   padding-right: 400px;
-  padding-top: 20px;
+  padding-top: 5px;
   padding-bottom: 10px;
 }
-
 
 .profile {
   display: flex;
@@ -303,9 +302,9 @@ body {
   overflow: hidden;
   position: fixed;
   z-index: 200;
-  margin-top: 30px;
-  
-  margin-left: 1300px;
+  margin-top: -80px;
+  margin-bottom: -150px;
+  margin-left: 1280px;
 
 }
 
@@ -603,6 +602,13 @@ h2 {
 
 
 @media(max-width: 1600px) {
+
+  .portfolio-btn {
+    margin-top: -80px;
+    margin-bottom: -150px;
+    margin-left: 1080px;
+  }
+
   .middle {
     padding-left: 150px;
     padding-right: 150px;
@@ -621,6 +627,13 @@ h2 {
 }
 
 @media(max-width: 1400px) {
+
+  .portfolio-btn {
+    margin-top: 180px;
+    margin-bottom: 100px;
+    margin-left: 980px;
+  }
+
   .first-row {
     padding-left: 0;
     padding-right: 0;
@@ -633,9 +646,25 @@ h2 {
 }
 
 @media(max-width: 1300px) {
+
+  .portfolio-btn {
+    margin-top: 10px;
+    /* margin-bottom: 300px; */
+    margin-left: 460px;
+    position: relative;
+  }
+
  .middle {
   padding-left: 50px;
   padding-right: 50px;
+ }
+
+ .first-row {
+  padding-bottom: 15px;
+ }
+
+ .row {
+  margin-top: -100px;
  }
 }
 
@@ -646,6 +675,12 @@ h2 {
 }
 
 @media(max-width: 800px) {
+
+  .portfolio-btn {
+    margin-top: 10px;
+    margin-left: 250px;
+    position: relative;
+  }
 
   .header {
     padding-top: 20px;
@@ -698,6 +733,13 @@ h2 {
 }
 
 @media(max-width: 600px) {
+
+  .portfolio-btn {
+    margin-top: 10px;
+    margin-left: 160px;
+    position: relative;
+  }
+
 
   .banner {
     display: flex;
@@ -789,6 +831,12 @@ h2 {
     padding-right: 0;
   }
 
+  .portfolio-btn {
+    margin-top: 10px;
+    margin-left: 50px;
+    position: relative;
+  }
+
   .middle {
     display: flex;
     flex-direction: column;
@@ -858,6 +906,25 @@ h2 {
   }
 
 }
+
+@media(max-width: 375px) {
+
+  .portfolio-btn {
+    margin-top: 10px;
+    margin-left: 40px;
+    position: relative;
+  }
+}
+
+@media(max-width: 360px) {
+
+  .portfolio-btn {
+    margin-top: 10px;
+    margin-left: 30px;
+    position: relative;
+  }
+}
+
 
 
 
