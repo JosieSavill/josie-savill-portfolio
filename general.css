@@ -659,7 +659,7 @@ h2 {
 
   .middle {
     padding-top: 120px;
-    row-gap: 20px;
+    row-gap: 10px;
     padding-bottom: 0;
   }
 
@@ -668,42 +668,10 @@ h2 {
     z-index: 100;
   }
 
-  .footer {
-    padding-top: 0;
-  }
-
   .banner {
     min-height: 100%;
   }
-}
-
-@media(max-width: 1200px) {
-
-  .middle {
-    width: 100%;
-  }
-
-  .hover-overlay {
-    width: 20%;
-  }
-
-}
-
-@media(max-width: 900px) {
-
-  .middle,
-  .projects-btn,
-  .first-row {
-    
-    width: 100%;
-
-  }
   
-  .bottom  {
-    padding: 0;
-  }
-  
-
   .description-text {
     padding-top: 10px;
     text-align: center;
@@ -733,6 +701,34 @@ h2 {
 
 }
 
+@media(max-width: 1200px) {
+
+  .middle {
+    width: 100%;
+  }
+
+  .hover-overlay {
+    width: 20%;
+  }
+
+}
+
+@media(max-width: 900px) {
+
+  .middle,
+  .projects-btn,
+  .first-row {
+    
+    width: 100%;
+
+  }
+  
+  .bottom  {
+    padding: 0;
+  }
+
+}
+
 @media(max-width: 600px) {
 
   .header {
@@ -743,7 +739,7 @@ h2 {
     text-align: center;
     width: 100%;
     padding-top: 20px;
-
+    padding-left: 0;
   }
 
   .logo {
@@ -766,6 +762,8 @@ h2 {
     width: 100%;
     padding-bottom: 20px;
     padding-left: 0;
+    padding-right: 10px;
+    
     
   }
  
