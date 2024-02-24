@@ -22,9 +22,7 @@ git status
 
 git commit -m ""
 
-npm run build
 
-npm run deploy ---- 'published'
 
 [Link Here](https://josiesavill.github.io/josie-savill-portfolio/)  
 
