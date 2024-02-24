@@ -1,171 +1,251 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Josie's Portfolio</title>
-  <link rel="stylesheet" href="general.css">
-</head>
-<body>
-  <div class="header">
-    <div class="logo">
-      <span class="name">JOSIE SAVILL</span>
-      <span class="logo-description">Web Developer</span>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Josie's Portfolio</title>
+    <link rel="stylesheet" href="general.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo">
+        <span class="name">JOSIE SAVILL</span>
+        <span class="logo-description">Web Developer</span>
+      </div>
+      <nav class="navbar">
+        <div class="nav">
+          <a href="https://www.linkedin.com/in/josiefiordasavill">
+            <img
+              src="./assets/linkedin.svg"
+              alt="linked in icon"
+              class="linkedin-icon"
+          /></a>
+        </div>
+        <div class="nav">
+          <a href="https://github.com/JosieSavill?tab=repositories">
+            <img
+              src="./assets/github.svg"
+              alt="github icon"
+              class="github-icon"
+            />
+          </a>
+        </div>
+        <div class="nav">
+          <a
+            href="https://stackexchange.com/users/27657333/josie-fiorda-savill"
+          >
+            <img
+              src="./assets/stack-overflow.svg"
+              alt="stacked exchanged icon"
+              class="stack-overflow-icon"
+            />
+          </a>
+        </div>
+        <div class="nav">
+          <a className="gmail" href="mailto:FiordaSavillJosie@gmail.com"
+            ><img
+              src="./assets/envelope.svg"
+              alt="email  icon"
+              class="mail-icon"
+          /></a>
+        </div>
+      </nav>
     </div>
-    <nav class="navbar">
-      <div  class="nav"><a href="https://www.linkedin.com/in/josiefiordasavill">
-        <img src="./assets/linkedin.svg" alt="linked in icon" class="linkedin-icon"></a></div>
-      <div  class="nav"> <a href="https://github.com/JosieSavill?tab=repositories">
-        <img src="./assets/github.svg" alt="github icon" class="github-icon">
-        </a></div>
-      <div  class="nav"><a href="https://stackexchange.com/users/27657333/josie-fiorda-savill">
-        <img src="./assets/stack-overflow.svg" alt="stacked exchanged icon" class="stack-overflow-icon">
-          </a></div>
-      <div  class="nav"><a className='gmail' href="mailto:FiordaSavillJosie@gmail.com"><img src="./assets/envelope.svg" alt="email  icon" class="mail-icon"></a></div>
-    </nav>
-  </div>
 
-  <div class="banner">
-    
-    <div class="middle">
-
-      <div class="first-row">
-        
-        <section class="first-row-profile">
-          <section class="profile">
-            <div class="profile-pic">
-              <img src="./assets/colorprofilepix.jpg" alt="josie-img" class="profile-img">
+    <div class="banner">
+      <div class="middle">
+        <div class="first-row">
+          <section class="first-row-profile">
+            <section class="profile">
+              <div class="profile-pic">
+                <img
+                  src="./assets/colorprofilepix.jpg"
+                  alt="josie-img"
+                  class="profile-img"
+                />
+              </div>
+              <div class="profile-text">
+                My goal is to make information <br />easily accessible and
+                visually appealing.<br />I enjoy collaboration, as well as
+                <br />researching and creating design solutions.
+              </div>
+            </section>
+            <section>
+              <button class="resume-btn">
+                <span
+                  ><a
+                    href="https://1drv.ms/w/s!AhfCqpI38Ls5l27GKxFTiBmh7zpv?e=OD3t2L"
+                    class="resume-btn-text"
+                    >Download Resume</a
+                  ></span
+                >
+                <span class="resume-btn-arrow">
+                  <img
+                    src="./assets/arrow-right-hover.svg"
+                    alt="right arrow icon"
+                    class="arrow"
+                  />
+                </span>
+              </button>
+            </section>
+          </section>
+          <section class="first-row-split">
+            <div class="first-row-split-top">
+              Proficiencies:<br />HTML, CSS, JavaScript
             </div>
-            <div class="profile-text">My goal is to make information <br>easily accessible and visually appealing.<br>I enjoy collaboration, as well as <br>researching and creating design solutions.
+            <div class="first-row-split-bottom">
+              Libraries & Frameworks:<br />Bootstrap, Sequelize, React
             </div>
           </section>
-          <section>
-            <button class="resume-btn">
-              <span><a href="https://1drv.ms/w/s!AhfCqpI38Ls5l27GKxFTiBmh7zpv?e=OD3t2L" class="resume-btn-text">Download Resume</a></span>
-              <span class="resume-btn-arrow">
-                <img src="./assets/arrow-right-hover.svg" alt="right arrow icon" class="arrow">
-              </span>
+        </div>
+
+        <div class="row">
+          <section class="projects-column">
+            <button class="projects-btn">
+              <span class="projects-btn-text">Latest Projects</span>
             </button>
           </section>
-        </section>
-        <section class="first-row-split">
-          <div class="first-row-split-top">Proficiencies:<br>HTML, CSS, JavaScript</div>
-          <div class="first-row-split-bottom">Libraries & Frameworks:<br>Bootstrap, Sequelize, React</div>
-        </section>
-      </div>
-
-      <div class="row">
-
-        <section class="projects-column">
-          <button class="projects-btn">
-            <span class="projects-btn-text">Latest Projects</span>
-          </button>
-        </section>
-        <section class="hover-overlay special">
-          <div class="top" style="background-image: url('./assets/portfolio-dream-destinations.png');">
-            <h2>Dream Destinations</h2>
-          </div>
-          <div class="bottom">
-            <div class="website-descriptions">
-              <section class="description-text">
-                React Framework<br>
-                HTML, CSS, JavaScript<br>
-                Pexels Library
-              </section>
-              <section class="website-link">
-                <a href="https://josiesavill.github.io/dream-destinations/" class="link">
-                  Website
-                </a>
-              </section>
-              <section  class="repository-link">
-                <a href="https://github.com/JosieSavill/dream-destinations">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#e5a062" class="repository-icon" viewBox="0 0 16 16">
-                  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-                </svg>
-                </a>
-              <section class="repository">
-                  Github
-              </section>
-              </section>
+          <section class="hover-overlay special">
+            <div
+              class="top"
+              style="
+                background-image: url('./assets/portfolio-dream-destinations.png');
+              "
+            >
+              <h2>Dream Destinations</h2>
             </div>
-          </div>
-        </section>
-        <section class="hover-overlay special">
-          <div class="top" style="background-image: url('https://th.bing.com/th/id/R.4215c5fc6abbfe6231141eb6a66952f7?rik=JB1IKr2l9IL8Sg&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fKBk1YBX.jpg&ehk=ugeBF2VGQJDZ%2f5S6vxl0iMWMSgOLVzyX8cX6Ayl1gO8%3d&risl=&pid=ImgRaw&r=0');">
-            <h2>Event Scheduler</h2>
-          </div>
-          <div class="bottom">
-            <div class="website-descriptions">
-              <section class="description-text">
-                HTML<br>
-                CSS<br>
-                JavaScript
-              </section>
-              <section class="website-link">
-                <a href="https://josiesavill.github.io/events-scheduler/" class="link">
-                  Website
-                </a>
-              </section>
-              <section  class="repository-link">
-                <a href="https://github.com/JosieSavill/events-scheduler">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#e5a062" class="repository-icon" viewBox="0 0 16 16">
-                  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-                </svg>
-                </a>
-              <section class="repository">
-               Github
-              </section>
-              </section>
-          </div>
-        </div>
-        </section>
-        <section class="hover-overlay special">
-          <div class="top" style="background-image: url('./assets/coffee-hub.jpg');">
-            <h2>Coffee Hub</h2>
-          </div>
-          <div class="bottom">
-            <div class="website-descriptions">
-              <section class="description-text">
-                HTML<br>
-                CSS<br>
-                SCSS<br>
-                JavaScript
-              </section>
-              <section class="website-link">
-                <a href="https://josiesavill.github.io/coffee-hub/" class="link">
-                  Website
-                </a>
-              </section>
-              <section  class="repository-link">
-                <a href="https://github.com/JosieSavill/coffee-hub">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#e5a062" class="repository-icon" viewBox="0 0 16 16">
-                  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-                </svg>
-                </a>
-                <section class="repository">
-                  Github
+            <div class="bottom">
+              <div class="website-descriptions">
+                <section class="description-text">
+                  React Framework<br />
+                  HTML, CSS, JavaScript<br />
+                  Pexels Library
                 </section>
-              </section>
+                <section class="website-link">
+                  <a
+                    href="https://josiesavill.github.io/dream-destinations/"
+                    class="link"
+                  >
+                    Website
+                  </a>
+                </section>
+                <section class="repository-link">
+                  <a href="https://github.com/JosieSavill/dream-destinations">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="30"
+                      height="30"
+                      fill="#e5a062"
+                      class="repository-icon"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                      />
+                    </svg>
+                  </a>
+                  <section class="repository">Github</section>
+                </section>
+              </div>
             </div>
-          </div>
-        </section>
-      </div>  
-        
+          </section>
+          <section class="hover-overlay special">
+            <div
+              class="top"
+              style="
+                background-image: url('https://th.bing.com/th/id/R.4215c5fc6abbfe6231141eb6a66952f7?rik=JB1IKr2l9IL8Sg&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fKBk1YBX.jpg&ehk=ugeBF2VGQJDZ%2f5S6vxl0iMWMSgOLVzyX8cX6Ayl1gO8%3d&risl=&pid=ImgRaw&r=0');
+              "
+            >
+              <h2>Event Scheduler</h2>
+            </div>
+            <div class="bottom">
+              <div class="website-descriptions">
+                <section class="description-text">
+                  HTML<br />
+                  CSS<br />
+                  JavaScript
+                </section>
+                <section class="website-link">
+                  <a
+                    href="https://josiesavill.github.io/events-scheduler/"
+                    class="link"
+                  >
+                    Website
+                  </a>
+                </section>
+                <section class="repository-link">
+                  <a href="https://github.com/JosieSavill/events-scheduler">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="30"
+                      height="30"
+                      fill="#e5a062"
+                      class="repository-icon"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                      />
+                    </svg>
+                  </a>
+                  <section class="repository">Github</section>
+                </section>
+              </div>
+            </div>
+          </section>
+          <section class="hover-overlay special">
+            <div
+              class="top"
+              style="background-image: url('./assets/finedining_v2.jpg')"
+            >
+              <h2>Coffee Hub</h2>
+            </div>
+            <div class="bottom">
+              <div class="website-descriptions">
+                <section class="description-text">
+                  HTML<br />
+                  CSS<br />
+                  SCSS<br />
+                  JavaScript
+                </section>
+                <section class="website-link">
+                  <a
+                    href="https://josiesavill.github.io/restaurant/"
+                    class="link"
+                  >
+                    Website
+                  </a>
+                </section>
+                <section class="repository-link">
+                  <a href="https://github.com/JosieSavill/coffee-hub">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="30"
+                      height="30"
+                      fill="#e5a062"
+                      class="repository-icon"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                      />
+                    </svg>
+                  </a>
+                  <section class="repository">Github</section>
+                </section>
+              </div>
+            </div>
+          </section>
+        </div>
 
-
-      <div class="footer">
-          <span class="updated">Updated: October, 2023 - Scottsdale, Arizona, United States</span>
-          
+        <div class="footer">
+          <span class="updated"
+            >Updated: October, 2023 - Scottsdale, Arizona, United States</span
+          >
+        </div>
       </div>
-
     </div>
-      
-    
-  </div>
-    
 
-  
-  <img class="bird" src="assets/fire-bird.png"> 
-
-</body>
+    <img class="bird" src="assets/fire-bird.png" />
+  </body>
 </html>

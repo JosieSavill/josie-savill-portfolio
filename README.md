@@ -14,7 +14,17 @@ Technologies used in building this site were HTML, CSS and JavaScript.
 
 ## *Deployed Application URL on GitHub Pages*
 
+//workflow
 
+git add -A
+
+git status
+
+git commit -m ""
+
+npm run build
+
+npm run deploy ---- 'published'
 
 [Link Here](https://josiesavill.github.io/josie-savill-portfolio/)  
 
